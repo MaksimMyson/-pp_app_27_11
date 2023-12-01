@@ -4,10 +4,21 @@
     <Filter Include="main">
       <UniqueIdentifier>{3d83df86-6c36-4df9-9538-e0fe8e6aeecb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="process_text">
+      <UniqueIdentifier>{8eb1ce98-8fa5-4283-a59d-4d44d6004794}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="process_text.cpp">
+      <Filter>process_text</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="process_text.h">
+      <Filter>process_text</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
